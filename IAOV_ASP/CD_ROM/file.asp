@@ -1,0 +1,10 @@
+file(f1, 150).
+file(f2, 200).
+file(f3, 100).
+file(f4, 180).
+file(f5, 220).
+file(f6, 90).
+file(f7, 80).
+file(f8, 50).
+file(f9, 60).
+file(f10, 140).
