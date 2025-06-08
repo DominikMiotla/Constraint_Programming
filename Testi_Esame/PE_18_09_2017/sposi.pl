@@ -10,8 +10,7 @@ sposi(L):-
     DomainC :: [1..C],
 
     constraint_conflict(ListConflict,L),
-    fd_global:alldifferent(L,C),
-    %constraint_capacity(1,NT,L,DomainC),
+    constraint_capacity(1,NT,L,DomainC),
 
     objective(ListFriends,L,ListC),
     fd_global:sumlist(ListC,Sum),
